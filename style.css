@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.body{
+    margin: 0%;
+}
+
+.head{
+    padding: 2px,20px;
+    background-color: hsl(180, 91%, 29%);
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+}
+.head h3{
+    width: 40%;
+}
+
+.right_top{
+    width: 50%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.right_top a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.right_top h5{
+    padding: 0px, 10px;
+    text-align: right;
+}
+
+.about{
+    width: 100%;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.about #nova{
+    width: 30%;
+    border: 0px solid;
+    border-radius: 50%; 
+}
+
+.about{
+    color: rgb(0, 0, 0);
+}
+
+.about #name{
+    color: hsl(180, 91%, 29%);
+}
+
+.about .flag{
+    width: 20px;
+}
+
+.center{
+    background-color: hsl(199, 93%, 24%);
+    color: rgb(255, 255, 255);
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.center .one{
+    width: 40%;
+    margin: auto;
+}
+
+.center .two{
+    width: 40%;
+    margin: auto;
+}
+
+.services{
+    padding: 30px;
+    display: block;
+}
+.services .top{
+    color: hsl(180, 91%, 29%);
+    padding-left: 8px;
+}
+
+.services div{
+    width: 100%;
+    display: flex;
+}
+
+.services .offer1{
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    border: 0px;
+    border-radius: 8px;
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(42, 44, 38);
+}
+.footer{
+    background-color: hsl(199, 93%, 24%);
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+}
